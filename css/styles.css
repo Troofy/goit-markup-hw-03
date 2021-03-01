@@ -1,0 +1,174 @@
+:root {
+--main-font:'Roboto', sans-serif;
+--secondary-font: 'Raleway', sans-serif;
+--accent-color-link:  #2196F3;
+--main-font-color: #212121;
+--secondary-font-color: #FFFFFF;
+--description-font-color: #757575;
+--background-color: #2F303A;
+--secondary-background-color: #F5F4FA;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+list-style: none;
+}
+.address {
+  font-style: normal;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--secondary-font-color);
+  font-weight: 500;
+}
+
+/* ====ITEMS==== */
+.header-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-font-color);
+}
+.logo-first-part {
+  color: var(--accent-color-link);
+}
+
+.navigation-link,
+.contact {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-font-color);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color-link);
+}
+.contact {
+  color: var(--description-font-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color-link);
+}
+.modal-btn {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background: var(--accent-color-link);
+  cursor: pointer;
+  color: var(--secondary-font-color);
+}
+.portfolio-btn {
+  color: var(--main-font-color);
+  background: var(--secondary-background-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--secondary-font-color);
+  background: var(--accent-color-link);
+}
+.active {
+  color: var(--accent-color-link);
+}
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--secondary-font-color);
+}
+.bottom {
+  background: var(--background-color);
+}
+.maps {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+/* ====END ITEMS==== */
+/* ====HERO==== */
+.first-section {
+  background: var(--background-color);
+}
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+}
+/*====END HERO==== */
+
+/* ====ADVANTAGES==== */
+.adv-list-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-font-color);
+}
+.description {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--description-font-color);
+}
+/* ====END ADVANTAGES==== */
+.portfolio-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+/* ====TEAM==== */
+.team {
+  background-color: #F5F4FA;
+}
+.team-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.name {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.post {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--description-font-color);
+}
+/* ====END TEAM==== */
+/* ====PORTFOLIO==== */
+.portfolio-list-title {
+  font-family: var(--main-font);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-font-color);
+}
+/* ====END PORTFOLIO==== */
