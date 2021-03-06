@@ -186,6 +186,10 @@ margin-right: 50px;
     margin-left: 30px;
     margin-top: 30px;
   }
+  .list {
+  display: flex;
+  align-items: center;
+  }
 .adv-list-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -194,6 +198,7 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-font-color);
+  padding-bottom: 10px;
 }
 .description {
   font-family: var(--main-font);
@@ -210,10 +215,14 @@ margin-right: 50px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-font-color);
+  padding-bottom: 50px;
 }
 /* ====TEAM==== */
 .team {
   background-color: #F5F4FA;
+}
+.team-list {
+  display: flex;
 }
 .team-title {
   font-family: var(--main-font);
@@ -222,13 +231,31 @@ margin-right: 50px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-font-color);
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  }
+  .team-list-item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+  }
 .name {
   font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-font-color);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .post {
   font-family: var(--main-font);
@@ -236,6 +263,8 @@ margin-right: 50px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--description-font-color);
+  text-align: center;
+  padding-bottom: 30px;
 }
 /* ====END TEAM==== */
 /* ====PORTFOLIO==== */
@@ -247,4 +276,25 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: var(--main-font-color);
 }
+.portfolio {
+  margin-top: 94px;
+  text-align: center;
+  padding-bottom: 94px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.portfolio-img {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
 /* ====END PORTFOLIO==== */
+/* ====footer==== */
+.footer-logo {
+  padding-top: 50px;
+}
+/* ====end footer==== */
