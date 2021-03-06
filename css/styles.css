@@ -8,6 +8,23 @@
 --background-color: #2F303A;
 --secondary-background-color: #F5F4FA;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
 .link {
   text-decoration: none;
 }
@@ -22,8 +39,21 @@ body {
   color: var(--secondary-font-color);
   font-weight: 500;
 }
-
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 /* ====ITEMS==== */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .header-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -34,7 +64,38 @@ body {
 .logo-first-part {
   color: var(--accent-color-link);
 }
-
+.header-logo {
+  padding-right: 93px;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+.navigation-list-item:not(:last-child) {
+margin-right: 50px;
+}
+.contact-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.mail {
+  margin-right: 50px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
 .navigation-link,
 .contact {
   font-family: var(--main-font);
@@ -55,6 +116,8 @@ body {
   color: var(--accent-color-link);
 }
 .modal-btn {
+  min-width: 200px;
+  padding: 10px 32px;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -95,6 +158,10 @@ body {
 }
 /* ====END ITEMS==== */
 /* ====HERO==== */
+.hero .container {
+  padding: 200px 252px;
+  text-align: center;
+}
 .first-section {
   background: var(--background-color);
 }
@@ -110,6 +177,15 @@ body {
 /*====END HERO==== */
 
 /* ====ADVANTAGES==== */
+.adv-list {
+  margin-left: -30px;
+  margin-top: -30px;
+  }
+  .adv-list-item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 .adv-list-title {
   font-family: var(--main-font);
   font-weight: 700;
