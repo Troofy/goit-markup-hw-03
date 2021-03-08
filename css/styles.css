@@ -65,7 +65,7 @@ body {
   color: var(--accent-color-link);
 }
 .header-logo {
-  padding-right: 93px;
+  margin-right: 93px;
 }
 .nav-header {
   display: flex;
@@ -156,7 +156,7 @@ margin-right: 50px;
 }
 /* ====END ITEMS==== */
 /* ====HERO==== */
-.hero .container {
+.hero-description {
   padding: 200px 252px;
   text-align: center;
 }
@@ -175,6 +175,9 @@ margin-right: 50px;
 /*====END HERO==== */
 
 /* ====ADVANTAGES==== */
+.adv-section {
+  padding-top: 64px;
+}
 .adv-list {
   margin-left: -30px;
   margin-top: -30px;
@@ -201,6 +204,7 @@ margin-right: 50px;
 .description {
   font-family: var(--main-font);
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--description-font-color);
@@ -213,7 +217,7 @@ margin-right: 50px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-font-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 /* ====TEAM==== */
 .team {
@@ -246,6 +250,13 @@ margin-right: 50px;
     margin-top: 30px;
     background-color: #FFFFFF;
   }
+  .team-description {
+  padding-top: 30px;
+  display: block;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 30px;
+  }
 .name {
   font-family: var(--main-font);
   font-size: 16px;
@@ -253,8 +264,7 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   color: var(--main-font-color);
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .post {
   font-family: var(--main-font);
@@ -263,7 +273,6 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   color: var(--description-font-color);
   text-align: center;
-  padding-bottom: 30px;
 }
 /* ====END TEAM==== */
 /* ====PORTFOLIO==== */
@@ -277,7 +286,7 @@ color: var(--main-font-color);
 margin-bottom: 4px;
 }
 .portfolio {
-  margin-top: 94px;
+  padding-top: 94px;
   text-align: center;
   padding-bottom: 94px;
 }
@@ -305,7 +314,7 @@ margin-bottom: 4px;
   line-height: 1.19;
   color: var(--secondary-font-color);
 }
-.footer-list {
+.address {
   margin-top: 20px;
 }
 .footer-list {
@@ -317,7 +326,7 @@ margin-bottom: 4px;
 /* ====end footer==== */
 /* ===== filter ===== */
 .portfolio-hero .container {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 .portfolio-btn-list {
   display:flex;
