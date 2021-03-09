@@ -130,6 +130,7 @@ margin-right: 50px;
 .portfolio-btn {
   display: flex;
   padding:10px 32px;
+  margin-top: 0px;
   justify-content: center;
   text-align: center;
   align-items: center;
