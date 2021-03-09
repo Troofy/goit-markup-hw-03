@@ -179,6 +179,7 @@ margin-right: 50px;
 /* ====ADVANTAGES==== */
 .adv-section {
   padding-top: 64px;
+  padding-bottom: 47px;
 }
 .adv-list {
   margin-left: -30px;
@@ -288,7 +289,7 @@ color: var(--main-font-color);
 margin-bottom: 4px;
 }
 .portfolio {
-  padding-top: 94px;
+  padding-top: 47px;
   text-align: center;
   padding-bottom: 94px;
 }
