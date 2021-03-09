@@ -161,7 +161,7 @@ margin-right: 50px;
 .first-section {
   background: var(--background-color);
 }
-first-section .container {
+.first-section .container {
   padding: 200px 252px;
   text-align: center;
 }
