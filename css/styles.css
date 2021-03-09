@@ -156,12 +156,13 @@ margin-right: 50px;
 }
 /* ====END ITEMS==== */
 /* ====HERO==== */
-.hero-description {
-  padding: 200px 252px;
-  text-align: center;
-}
+
 .first-section {
   background: var(--background-color);
+}
+first-section .container {
+  padding: 200px 252px;
+  text-align: center;
 }
 .hero-title {
   font-family: var(--main-font);
@@ -222,6 +223,7 @@ margin-right: 50px;
 /* ====TEAM==== */
 .team {
   background-color: #F5F4FA;
+  padding-top: 94px;
 }
 .team-list {
   display: flex;
@@ -234,8 +236,7 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   color: var(--main-font-color);
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -325,8 +326,8 @@ margin-bottom: 4px;
 }
 /* ====end footer==== */
 /* ===== filter ===== */
-.portfolio-hero .container {
-  margin-top: 50px;
+.portfolio-hero {
+  padding-top: 50px;
 }
 .portfolio-btn-list {
   display:flex;
